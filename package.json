@@ -1,0 +1,35 @@
+{
+  "name": "algorithm-practice",
+  "version": "1.0.0",
+  "description": "preapre for code session interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testEnvironment=node --forceExit --runInBand --detectOpenHandles --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakimAsa/algorthm-practice.git"
+  },
+  "author": "akim ayena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HakimAsa/algorthm-practice/issues"
+  },
+  "homepage": "https://github.com/HakimAsa/algorthm-practice#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6"
+  },
+  "jest": {
+		"collectCoverage": false,
+		"collectCoverageFrom": [
+			"!babel.config.js",
+      "**/*.js",
+			"!**/node_modules/**"
+		]
+	}
+}
